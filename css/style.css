@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100%;
+    min-height: 100%;
+    background: #1F1F20;
+}
+#board{
+    background: #1F1F20;
+    width: 770px;
+    height: 650px;
+    padding: 25px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+#board div{
+	border:#fff 1px solid;
+	width:120px;
+	height:120px;
+	float:left;
+	margin:10px;
+	padding:25px;
+	font-size:24px;
+	cursor:pointer;
+    text-align:center;
+    font-weight: bold;
+    background: #6F6C72;
+    box-shadow: 1px 1px 10px #fff;
+}
+#board div.clicked {
+    background: #fff;
+}
+i {
+    color: white;
+}
